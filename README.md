@@ -1,87 +1,81 @@
 <div align="center">
 
-# Hi, I'm Youssef 👋
+# Youssef Mohamed Abd El-Fattah
 
-### .NET Backend Engineer — Cairo, Egypt
+**.NET Backend Engineer — Microservices & Distributed Systems**
 
-Building RESTful APIs and distributed systems with ASP.NET Core, and picking up DevOps/Cloud practices to ship them properly.
+I built the same e-commerce system three times, under three different architectures, to actually understand the trade-offs instead of just reading about them.
 
-[![GitHub](https://img.shields.io/badge/GitHub-youssef--mohammed317-181717?logo=github)](https://github.com/youssef-mohammed317)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](www.linkedin.com/in/youssefmohammed317)
-[![Codewars](https://img.shields.io/badge/Codewars-250%2B%20katas-B1361E?logo=codewars)](https://www.codewars.com/users/youssef-mohammed317)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:youssefmohammad040317@gmail.com)
+[![GitHub](https://img.shields.io/badge/-youssef--mohammed317-181717?style=flat&logo=github)](https://github.com/youssef-mohammed317)
+[![LinkedIn](https://img.shields.io/badge/-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefmohammed317)
+[![Codewars](https://img.shields.io/badge/-250%2B%20katas-B1361E?style=flat&logo=codewars&logoColor=white)](https://www.codewars.com/users/youssef-mohammed317)
+[![Email](https://img.shields.io/badge/-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:youssefmohammad040317@gmail.com)
 
 </div>
 
----
+<br>
 
-## About me
+## Three architectures, one domain
 
-.NET Backend Developer specializing in RESTful APIs with ASP.NET Core. Comfortable with Clean Architecture, the Repository/Unit-of-Work patterns, and building things that are actually tested — xUnit, Moq, and AutoFixture show up in almost everything I ship. Currently extending that into DevOps: containerization, Kubernetes, and CI/CD pipelines, largely self-taught outside of coursework.
-
-🔭 Currently a **DevOps Intern** at Digital Egypt Pioneers Initiative (DEPI), working across Docker, Kubernetes, GitHub Actions, Ansible, Terraform, and AWS.
-🎓 Computer Engineering student at Benha University (2022–2027).
-
-## 🚀 Featured Projects
-
-### 🛒 eCommerce Microservices
-A 5-repository, production-shaped microservices system in .NET — an Ocelot API Gateway fronting three independently deployable services (Users, Products, Orders), event-driven cache invalidation over RabbitMQ, Redis as a resilience layer (not just a speed-up), and Polly fault tolerance tuned per-dependency through configuration. Deployed to a self-hosted Kubernetes (Minikube) cluster through a GitHub Actions CI/CD pipeline built entirely on free, open-source tooling in place of Azure DevOps/AKS/ACR.
-
-**Stack:** ASP.NET Core · PostgreSQL/Dapper · MySQL/EF Core · MongoDB · RabbitMQ · Redis · Polly · Ocelot · Docker · Kubernetes · GitHub Actions
-**Testing:** xUnit, Moq, AutoFixture, FluentAssertions across all three services
-
-🔗 [Organization](https://github.com/ym-harsha-ecommerce-microservices) · [API Gateway](https://github.com/ym-harsha-ecommerce-microservices/api-gateway) · [Users API](https://github.com/ym-harsha-ecommerce-microservices/users-api) · [Products API](https://github.com/ym-harsha-ecommerce-microservices/products-api) · [Orders API](https://github.com/ym-harsha-ecommerce-microservices/orders-api) · [Infrastructure](https://github.com/ym-harsha-ecommerce-microservices/ecommerce-infrastructure)
-📚 [Course](https://www.udemy.com/course/dot-net-microservices-ecommerce-project-azure-devops-kubernetes-aks/) · 🎓 [Certificate](https://drive.google.com/file/d/1VVxsmjJU57NlZn8QpqDcRlLGiE5nztiJ/view?usp=drive_link)
-
-### 📈 ASP.NET Core 10 — True Ultimate Guide
-A complete, section-by-section walkthrough of a 34-section / 432-lecture ASP.NET Core course — MVC and Web API from HTTP fundamentals up to senior-level practice. Built through several real apps (a Weather App, a Bank App, an eCommerce Orders app) culminating in a full **Stocks Trading Platform**, progressively extended with EF Core, the Repository Pattern, xUnit/Moq/AutoFixture testing, Serilog logging, custom Filters, SOLID Principles, Clean Architecture, ASP.NET Core Identity, and JWT authentication with refresh tokens.
-
-**Stack:** ASP.NET Core (MVC & Web API) · EF Core · Serilog · ASP.NET Core Identity · JWT · Angular (CORS/API consumption) · Minimal APIs
-**Testing:** xUnit, Moq, AutoFixture, FluentAssertions
-
-🔗 [Repository](https://github.com/youssef-mohammed317/Udemy.ASP.NetCoreUlitimateGuide.Assingments)
-📚 [Course](https://www.udemy.com/course/asp-net-core-true-ultimate-guide-real-project/) · 🎓 [Certificate](https://drive.google.com/file/d/1w7kqYdkPweA9NomnInLiwOeb6sWYEXXQ/view?usp=drive_link)
-
-> More projects — clean-architecture APIs, an HR leave-management system, a gym-management MVC app, and a data-structures/algorithms repo — are pinned on my [repositories tab](https://github.com/youssef-mohammed317?tab=repositories).
-
-## 🛠️ Tech Stack
-
-**Languages & Frameworks**
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)
-
-**Data & Caching**
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![EF Core](https://img.shields.io/badge/EF%20Core-512BD4?logo=dotnet&logoColor=white)
-
-**Architecture & Messaging**
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-black) ![Repository Pattern](https://img.shields.io/badge/Repository%20Pattern-black) ![SOLID](https://img.shields.io/badge/SOLID-black) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white) ![Polly](https://img.shields.io/badge/Polly-6C4EE3) ![Ocelot](https://img.shields.io/badge/Ocelot%20Gateway-1E90FF)
-
-**Testing & Quality**
-![xUnit](https://img.shields.io/badge/xUnit-513B70) ![Moq](https://img.shields.io/badge/Moq-blue) ![AutoFixture](https://img.shields.io/badge/AutoFixture-lightgrey) ![FluentAssertions](https://img.shields.io/badge/FluentAssertions-green)
-
-**DevOps & Cloud**
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white) ![Linux](https://img.shields.io/badge/Linux%20(RHEL)-FF6600?logo=linux&logoColor=white)
-
-## 💼 Experience
-
-| Role | Where | When |
+| | Repo | Approach |
 |---|---|---|
-| DevOps Intern | Digital Egypt Pioneers Initiative (DEPI) | Jul 2026 – Present |
-| Web Development using .NET | Information Technology Institute (ITI) | Jul 2026 |
-| Backend (.NET Core) Diploma | Route Academy | Dec 2025 |
+| 🟢 | **[eshop-microservices](https://github.com/youssef-mohammed317/eshop-microservices)** | 4 independently deployable services (Catalog, Basket, Discount, Ordering) behind a YARP gateway. Polyglot storage — Marten/PostgreSQL, SQL Server, SQLite. RabbitMQ events, gRPC for sync calls. |
+| 🟣 | **[eshop-modulith](https://github.com/youssef-mohammed317/eshop-modulith)** | Same domain as a **modular monolith** — one deployable, isolated modules with their own DB schemas, in-process messaging via MediatR, Transactional Outbox for reliable cross-module events. |
+| 🔵 | **[eCommerce Microservices](https://github.com/ym-harsha-ecommerce-microservices)** | The largest of the three: 5 repos, Ocelot gateway, Redis + Polly resilience, deployed to a self-hosted **Kubernetes** cluster via a GitHub Actions pipeline I built from scratch. |
 
-## 🎓 Education
+Why three? Tutorials show you *a* microservices architecture. Rebuilding the same problem three ways is how you learn which one you'd actually pick, and why.
 
-**Benha University** — Faculty of Engineering, Computer Engineering Department (2022–2027)
+<br>
 
-## 📊 GitHub Stats
+## Currently
 
-![Youssef's GitHub stats](https://github-readme-stats.vercel.app/api?username=youssef-mohammed317&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=youssef-mohammed317&layout=compact&hide_border=true)
+🔭 **DevOps Intern** at Digital Egypt Pioneers Initiative — Docker, Kubernetes, GitHub Actions, Terraform, Ansible, AWS
+🎓 Computer Engineering, Benha University (2022–2027) — 92%, Excellent
+📈 Deepening: System Design at scale (Web Academy — Netflix/Amazon/Google case studies), advanced microservices patterns (Mehmet Ozkaya), and Kubernetes (KodeKloud)
+📌 Next up: a graduation project
 
----
+**Also completed along the way:** Data Structures & Algorithms in C/C++ (Abdul Bari, 53+ hrs) · Git & GitHub · Generative AI for Developers
+
+<br>
+
+## Stack
+
+**Core**
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+
+**Architecture**
+![Clean Architecture](https://img.shields.io/badge/-Clean%20Architecture-333)
+![DDD](https://img.shields.io/badge/-DDD-333)
+![CQRS/MediatR](https://img.shields.io/badge/-CQRS%2FMediatR-333)
+
+**Data & Messaging**
+![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+
+**DevOps**
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+
+<br>
+
+## GitHub activity
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=youssef-mohammed317&show_icons=true&hide_border=true&theme=default" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=youssef-mohammed317&layout=compact&hide_border=true" />
+</div>
+
+<br>
 
 <div align="center">
 
-📫 Open to backend / DevOps opportunities — reach out via [LinkedIn](www.linkedin.com/in/youssefmohammed317) or [email](mailto:youssefmohammad040317@gmail.com).
+📫 Open to backend / DevOps roles — [LinkedIn](https://www.linkedin.com/in/youssefmohammed317) · [Email](mailto:youssefmohammad040317@gmail.com)
 
 </div>
